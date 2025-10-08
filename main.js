@@ -1,6 +1,3 @@
-<div id="container"></div>
-
-<script>
 const container = document.getElementById('container');
 
 const heading = document.createElement('h1');
@@ -11,4 +8,3 @@ paragraph.textContent = 'Це параграф, створений через Ja
 
 container.appendChild(heading);
 container.appendChild(paragraph);
-</script>
